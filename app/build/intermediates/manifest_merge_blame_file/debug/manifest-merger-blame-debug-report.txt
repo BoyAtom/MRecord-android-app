@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.health_bracer"
+4    android:versionCode="1"
+5    android:versionName="2.28" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:6:5-68
+11-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:6:22-66
+12    <uses-permission android:name="android.permission.NFC" />
+12-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:7:5-61
+12-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:7:22-59
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:8:5-80
+13-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:9:5-78
+14-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:10:5-76
+15-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:12:5-67
+17-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:13:5-81
+18-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:13:22-78
+19
+20    <application
+20-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:15:5-37:19
+21        android:name="androidx.multidex.MultiDexApplication"
+22        android:allowBackup="true"
+22-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:16:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] C:\Users\Дмитрий\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@drawable/plusik_blue"
+25-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:17:9-45
+26        android:label="@string/app_name"
+26-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:18:9-41
+27        android:supportsRtl="true"
+27-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:19:9-35
+28        android:theme="@style/AppTheme" >
+28-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:20:9-40
+29        <activity
+29-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:22:9-28:20
+30            android:name="com.example.health_bracer.MainMenu"
+30-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:22:19-43
+31            android:screenOrientation="portrait" >
+31-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:22:44-80
+32            <intent-filter>
+32-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:24:17-69
+33-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:26:17-77
+35-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:29:9-83
+39            android:name="com.example.health_bracer.YandexMap"
+39-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:29:19-44
+40            android:screenOrientation="portrait" />
+40-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:29:45-81
+41        <activity
+41-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:30:9-81
+42            android:name="com.example.health_bracer.Magnify"
+42-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:30:19-42
+43            android:screenOrientation="portrait" />
+43-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:30:43-79
+44        <activity
+44-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:31:9-81
+45            android:name="com.example.health_bracer.Profile"
+45-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:31:19-42
+46            android:screenOrientation="portrait" />
+46-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:31:43-79
+47        <activity
+47-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:32:9-82
+48            android:name="com.example.health_bracer.MoreMenu"
+48-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:32:19-43
+49            android:screenOrientation="portrait" />
+49-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:32:44-80
+50        <activity
+50-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:33:9-86
+51            android:name="com.example.health_bracer.IllnessExtra"
+51-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:33:19-47
+52            android:screenOrientation="portrait" />
+52-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:33:48-84
+53        <activity
+53-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:34:9-79
+54            android:name="com.example.health_bracer.About"
+54-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:34:19-40
+55            android:screenOrientation="portrait" />
+55-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:34:41-77
+56        <activity
+56-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:35:9-89
+57            android:name="com.example.health_bracer.FindedIllnesses"
+57-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:35:19-50
+58            android:screenOrientation="portrait" />
+58-->C:\Program for health bracer\Program\app\src\main\AndroidManifest.xml:35:51-87
+59    </application>
+60
+61</manifest>

@@ -1,0 +1,7 @@
+#Sun Jun 07 10:17:57 MSK 2020
+base.0=C\:\\Program for health bracer\\Program\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Program for health bracer\\Program\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes2.dex

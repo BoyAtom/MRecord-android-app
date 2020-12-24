@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MRecord</string>
+    <string name="ok_detection"/>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="welcome_user">Welcome user</string>
+    <string name="i_i">Тiкай хлопiц</string>
+    <string name="support_token">Введите токен пользователя</string>
+</resources>
